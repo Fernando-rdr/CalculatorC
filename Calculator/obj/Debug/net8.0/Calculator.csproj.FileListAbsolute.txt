@@ -7,6 +7,7 @@ C:\dev\Calculator\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.edito
 C:\dev\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
 C:\dev\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
 C:\dev\Calculator\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+C:\dev\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
 C:\dev\Calculator\obj\Debug\net8.0\Calculator.dll
 C:\dev\Calculator\obj\Debug\net8.0\refint\Calculator.dll
 C:\dev\Calculator\obj\Debug\net8.0\Calculator.pdb
