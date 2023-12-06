@@ -6,9 +6,25 @@ namespace Calculator // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Multiplicacao();
+            Menu();
 
         }
+
+        static void Menu()
+        {
+            Console.Clear();
+
+            Console.WriteLine("Bem vindo, o que deseja fazer?")
+            System.Console.WriteLine("1 - Soma");
+            System.Console.WriteLine("2 - Subtração");
+            System.Console.WriteLine("3 - Divisão");
+            System.Console.WriteLine("4 - Multiplicação");
+
+            System.Console.WriteLine("-------------------");
+            Console.WriteLine("Selecione uma opção:")
+            short res = short.Parse(Console.ReadLine());
+        }
+
         static void Soma()
         {
             Console.Clear();
