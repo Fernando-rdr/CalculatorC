@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -6,7 +7,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Start();
         }
         static void Start()
         {
@@ -15,7 +16,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             while (currentTime != time)
             {
+                Console.Clear();
                 currentTime++;
+                System.Console.WriteLine(currentTime);
+                Thread.Sleep(1000);
             }
         }
     }
