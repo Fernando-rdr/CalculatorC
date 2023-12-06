@@ -14,15 +14,25 @@ namespace Calculator // Note: actual namespace depends on the project name.
         {
             Console.Clear();
 
-            Console.WriteLine("Bem vindo, o que deseja fazer?")
+            Console.WriteLine("Bem vindo, o que deseja fazer?");
             System.Console.WriteLine("1 - Soma");
             System.Console.WriteLine("2 - Subtração");
             System.Console.WriteLine("3 - Divisão");
             System.Console.WriteLine("4 - Multiplicação");
 
             System.Console.WriteLine("-------------------");
-            Console.WriteLine("Selecione uma opção:")
+            Console.WriteLine("Selecione uma opção:");
             short res = short.Parse(Console.ReadLine());
+
+            switch (res) 
+            {
+                case 1: Soma(); break;
+                case 2: Subtracao(); break;
+                case 3: Divisao(); break;
+                case 4: Multiplicacao(); break;
+                default: Menu(); break;
+            }
+
         }
 
         static void Soma()
@@ -42,6 +52,9 @@ namespace Calculator // Note: actual namespace depends on the project name.
             System.Console.WriteLine($"O Resultado da soma é: {resultado}");
 
             System.Console.WriteLine($"O Resultado da soma é: {v1 + v2}");
+
+            Console.ReadKey();
+            Menu();
         }
 
         static void Subtracao()
@@ -58,6 +71,9 @@ namespace Calculator // Note: actual namespace depends on the project name.
 
             float resultado = v1 - v2;
             Console.WriteLine($"O Resultado da subtração é: {resultado}");
+
+            Console.ReadKey();
+            Menu();
         }
         static void Divisao()
         {
@@ -74,6 +90,9 @@ namespace Calculator // Note: actual namespace depends on the project name.
             System.Console.WriteLine("");
 
             System.Console.WriteLine($"O Resultado da divisão é: {resultado}");
+
+            Console.ReadKey();
+            Menu();
         }
         static void Multiplicacao()
         {
@@ -88,6 +107,20 @@ namespace Calculator // Note: actual namespace depends on the project name.
             float resultado = v1 * v2;
 
             Console.WriteLine($"O resultado da Multiplicação é: {resultado}");
+            
+            Console.ReadKey();
+            Menu();
         }
     }
 }
+
+            // if (res == 1)
+            //     Soma();
+            // if (res == 2)
+            //     Subtracao();
+            // if (res == 3)
+            //     Divisao();
+            // if (res == 4)
+            //     Multiplicacao();
+            // if (res >= 0 || res > 4)
+            //     System.Console.WriteLine("Opção invalida.");
