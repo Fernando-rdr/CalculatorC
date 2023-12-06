@@ -6,6 +6,11 @@ namespace Calculator // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
+            Multiplicacao();
+
+        }
+        static void Soma()
+        {
             Console.Clear();
             System.Console.WriteLine("Primeiro valor: ");
             float v1 = float.Parse(Console.ReadLine());
@@ -21,7 +26,52 @@ namespace Calculator // Note: actual namespace depends on the project name.
             System.Console.WriteLine($"O Resultado da soma é: {resultado}");
 
             System.Console.WriteLine($"O Resultado da soma é: {v1 + v2}");
+        }
 
+        static void Subtracao()
+        {
+            Console.Clear();
+
+            System.Console.WriteLine("Primeiro valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+
+            System.Console.WriteLine("Segundo valor: ");
+            float v2 = float.Parse(Console.ReadLine());
+
+            System.Console.WriteLine("");
+
+            float resultado = v1 - v2;
+            Console.WriteLine($"O Resultado da subtração é: {resultado}");
+        }
+        static void Divisao()
+        {
+            Console.Clear();
+
+            System.Console.WriteLine("Primeiro valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+
+            System.Console.WriteLine("Segundo valor: ");
+            float v2 = float.Parse(Console.ReadLine());
+
+            float resultado = v1 / v2;
+
+            System.Console.WriteLine("");
+
+            System.Console.WriteLine($"O Resultado da divisão é: {resultado}");
+        }
+        static void Multiplicacao()
+        {
+            Console.WriteLine("Primeiro valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Segundo valor: ");
+            float v2 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("");
+
+            float resultado = v1 * v2;
+
+            Console.WriteLine($"O resultado da Multiplicação é: {resultado}");
         }
     }
 }
