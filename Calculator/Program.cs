@@ -19,6 +19,7 @@ namespace Calculator // Note: actual namespace depends on the project name.
             System.Console.WriteLine("2 - Subtração");
             System.Console.WriteLine("3 - Divisão");
             System.Console.WriteLine("4 - Multiplicação");
+            System.Console.WriteLine("5 - Sair");
 
             System.Console.WriteLine("-------------------");
             Console.WriteLine("Selecione uma opção:");
@@ -30,6 +31,7 @@ namespace Calculator // Note: actual namespace depends on the project name.
                 case 2: Subtracao(); break;
                 case 3: Divisao(); break;
                 case 4: Multiplicacao(); break;
+                case 5: System.Environment.Exit(0); break;
                 default: Menu(); break;
             }
 
