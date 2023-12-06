@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -29,7 +30,17 @@ namespace MyApp // Note: actual namespace depends on the project name.
         }
         static void Abrir()
         {
-            
+            Console.Clear();
+            System.Console.WriteLine("Qual caminho do arquivo?");
+            string path = Console.ReadLine();
+            using(var file = new StreamReader(path)) 
+            {
+                string text = file.ReadToEnd();
+                System.Console.WriteLine(text);
+            }
+            System.Console.WriteLine("");
+            Console.ReadLine();
+            Menu();
         }
         static void Editar() 
         { 
@@ -38,7 +49,30 @@ namespace MyApp // Note: actual namespace depends on the project name.
             System.Console.WriteLine("----------------");
             string text = "";
 
-            while(Console.ReadKey().Key != ConsoleKey.Escape)
+            do {
+                text += Console.ReadLine();
+                text += Environment.NewLine;
+            }
+            while(Console.ReadKey().Key != ConsoleKey.Escape);
+
+            Salvar(text);
+
         }
+        static void Salvar(string text)
+        {
+            Console.Clear();
+            System.Console.WriteLine("Qual caminho para salvar o arquivo?");
+            var path = Console.ReadLine();
+
+            using (var file = new StreamWriter(path))
+            {
+                file.Write(text);
+            }
+
+            System.Console.WriteLine($"Arquivo {path} salvo com sucesso!");
+            Console.ReadLine();
+            Menu();
+        }
+    
     }
 }
