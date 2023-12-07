@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Numbers // Note: actual namespace depends on the project name.
 {
@@ -9,8 +10,19 @@ namespace Numbers // Note: actual namespace depends on the project name.
             Console.Clear();
 
             
-            decimal valor2 = 10.25m;
-            System.Console.WriteLine(valor);
+            decimal valor = 10536.25m;
+            
+
+            System.Console.WriteLine(
+                Math.Round(valor)
+            );
+            System.Console.WriteLine(Math.Ceiling(valor));
+            System.Console.WriteLine(Math.Floor(valor));
         }
     }
 }
+
+
+            // System.Console.WriteLine(
+            //     valor.ToString("C", 
+            //         CultureInfo.CreateSpecificCulture("en-IT")));
