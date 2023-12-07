@@ -8,20 +8,28 @@ namespace DotnetLists // Note: actual namespace depends on the project name.
         {
             Console.Clear();
 
-            var meuArray = new int[5] { 1, 2, 3, 4, 5 };
-            meuArray[0] = 12;
+            var arr = new int[4];
+            var arrb = new int[4];
 
-            foreach (var item in meuArray)
-            {
-                
-                System.Console.WriteLine(item);
-            }
+            arrb[0] = arr[0];
 
+            arr[0] = 23;
+            System.Console.WriteLine(arrb[0]);
 
 
         }
     }
 }
+            // var meuArray = new int[5] { 1, 2, 3, 4, 5 };
+            // meuArray[0] = 12;
+
+            // foreach (var item in meuArray)
+            // {
+                
+            //     System.Console.WriteLine(item);
+            // }
+
+
             // for (var index = 0; index < meuArray.Length; index++) {
             //     System.Console.WriteLine(meuArray[index]);
 
