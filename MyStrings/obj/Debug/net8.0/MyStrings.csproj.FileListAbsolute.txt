@@ -1,0 +1,15 @@
+C:\dev\MyStrings\bin\Debug\net8.0\MyStrings.exe
+C:\dev\MyStrings\bin\Debug\net8.0\MyStrings.deps.json
+C:\dev\MyStrings\bin\Debug\net8.0\MyStrings.runtimeconfig.json
+C:\dev\MyStrings\bin\Debug\net8.0\MyStrings.dll
+C:\dev\MyStrings\bin\Debug\net8.0\MyStrings.pdb
+C:\dev\MyStrings\obj\Debug\net8.0\MyStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\MyStrings\obj\Debug\net8.0\MyStrings.AssemblyInfoInputs.cache
+C:\dev\MyStrings\obj\Debug\net8.0\MyStrings.AssemblyInfo.cs
+C:\dev\MyStrings\obj\Debug\net8.0\MyStrings.csproj.CoreCompileInputs.cache
+C:\dev\MyStrings\obj\Debug\net8.0\MyStrings.sourcelink.json
+C:\dev\MyStrings\obj\Debug\net8.0\MyStrings.dll
+C:\dev\MyStrings\obj\Debug\net8.0\refint\MyStrings.dll
+C:\dev\MyStrings\obj\Debug\net8.0\MyStrings.pdb
+C:\dev\MyStrings\obj\Debug\net8.0\MyStrings.genruntimeconfig.cache
+C:\dev\MyStrings\obj\Debug\net8.0\ref\MyStrings.dll
