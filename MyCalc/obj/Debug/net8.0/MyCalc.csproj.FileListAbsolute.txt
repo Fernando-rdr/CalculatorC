@@ -1,0 +1,15 @@
+C:\dev\MyCalc\bin\Debug\net8.0\MyCalc.exe
+C:\dev\MyCalc\bin\Debug\net8.0\MyCalc.deps.json
+C:\dev\MyCalc\bin\Debug\net8.0\MyCalc.runtimeconfig.json
+C:\dev\MyCalc\bin\Debug\net8.0\MyCalc.dll
+C:\dev\MyCalc\bin\Debug\net8.0\MyCalc.pdb
+C:\dev\MyCalc\obj\Debug\net8.0\MyCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\MyCalc\obj\Debug\net8.0\MyCalc.AssemblyInfoInputs.cache
+C:\dev\MyCalc\obj\Debug\net8.0\MyCalc.AssemblyInfo.cs
+C:\dev\MyCalc\obj\Debug\net8.0\MyCalc.csproj.CoreCompileInputs.cache
+C:\dev\MyCalc\obj\Debug\net8.0\MyCalc.sourcelink.json
+C:\dev\MyCalc\obj\Debug\net8.0\MyCalc.dll
+C:\dev\MyCalc\obj\Debug\net8.0\refint\MyCalc.dll
+C:\dev\MyCalc\obj\Debug\net8.0\MyCalc.pdb
+C:\dev\MyCalc\obj\Debug\net8.0\MyCalc.genruntimeconfig.cache
+C:\dev\MyCalc\obj\Debug\net8.0\ref\MyCalc.dll
